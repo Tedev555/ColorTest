@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context="studio.teddev.com.colortest.SecondActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testImage"
+        android:src="@drawable/image_test"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_input"
+        android:hint="what is Number"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:id="@+id/btn_answer"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/text_answer"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
